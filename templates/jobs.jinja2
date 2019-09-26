@@ -31,10 +31,10 @@
             <a ref="https://www.northeastern.edu/idea/">Home<i class="material-icons">home</i></a>
         </li>
         <li class="nav-item">
-            <a href="jobs.html">Jobs<i class="material-icons">library_books</i></a>
+            <a href="{{ url_for('jobs') }}">Jobs<i class="material-icons">library_books</i></a>
         </li>
         <li class="nav-item">
-            <a href="applicants.html">Applicants<i class="material-icons">check_box</i></a>
+            <a href="{{ url_for('applicants') }}">Applicants<i class="material-icons">check_box</i></a>
         </li>
         <li><a class="sidenav-close" href="#!">Close<i class="material-icons">close</i></a></li>
     </ul>
@@ -43,16 +43,18 @@
             <div class="nav-wrapper white" style="color: #E9E9E9;">
                 <ul style="padding-right: 1% " class="navbar-fixed hide-on-med-and-down">
                     <li>
-                        <a class="no-hover-bg" href="https://www.northeastern.edu/idea/"><img class="idea-logo" src="../static/styles/images/logo.jpg"></a>
+                        <a class="no-hover-bg" href="https://www.northeastern.edu/idea/"><img class="idea-logo"
+                                                                                              src="../static/styles/images/logo.jpg"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="jobs.html">Jobs</a>
+                        <a href="{{ url_for('jobs') }}">Jobs</a>
                     </li>
                     <li class="nav-item">
-                        <a href="applicants.html">Applications</a>
+                        <a href="{{ url_for('applicants') }}">Applications</a>
                     </li>
                 </ul>
-                <a class="mobile-nav no-hover-bg" href="https://www.northeastern.edu/idea/"><img class="idea-logo" src="../static/styles/images/logo.jpg"></a>
+                <a class="mobile-nav no-hover-bg" href="https://www.northeastern.edu/idea/"><img class="idea-logo"
+                                                                                                 src="../static/styles/images/logo.jpg"></a>
                 <a style="color: black" href="#" data-target="slide-out" class="mobile-nav sidenav-trigger"><i
                         class="material-icons">menu</i></a>
             </div>

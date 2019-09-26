@@ -205,6 +205,7 @@ nav ul a {
 }
 
 .page-footer .footer-copyright {
+    font-size: 12px;
     border-top: 3px solid #E5E5E5;
     color: white;
     bottom: 0;

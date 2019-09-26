@@ -10,7 +10,7 @@ html {
 
 html, body, main, header, footer {
     font-weight: 500;
-    font-family: 'Lato', sans-serif;
+    font-family: "Helvetica Neue", sans-serif
 }
 
 h3 {
@@ -200,6 +200,10 @@ nav ul a {
     border-top: 3px solid #E5E5E5;
 }
 
+.page-footer {
+    max-height: 1vh;
+}
+
 .page-footer .footer-copyright {
     border-top: 3px solid #E5E5E5;
     color: white;
@@ -216,7 +220,7 @@ nav ul a {
 .airtable-embed {
     padding-top: 1%;
     height: 100%;
-    min-height: 85vh;
+    min-height: 83vh;
 }
 
 iframe {

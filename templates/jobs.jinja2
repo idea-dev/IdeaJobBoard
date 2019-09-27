@@ -28,13 +28,10 @@
 <header>
     <ul id="slide-out" class="sidenav">
         <li class="nav-item">
-            <a ref="https://www.northeastern.edu/idea/">Home<i class="material-icons">home</i></a>
+            <a href="https://www.northeastern.edu/idea/">Home<i class="material-icons">home</i></a>
         </li>
         <li class="nav-item">
             <a href="{{ url_for('jobs') }}">Jobs<i class="material-icons">library_books</i></a>
-        </li>
-        <li class="nav-item">
-            <a href="{{ url_for('applicants') }}">Applicants<i class="material-icons">check_box</i></a>
         </li>
         <li><a class="sidenav-close" href="#!">Close<i class="material-icons">close</i></a></li>
     </ul>
@@ -48,9 +45,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{ url_for('jobs') }}">Jobs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ url_for('applicants') }}">Applications</a>
                     </li>
                 </ul>
                 <a class="mobile-nav no-hover-bg" href="https://www.northeastern.edu/idea/"><img class="idea-logo"
@@ -67,6 +61,10 @@
             onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 </main>
 <footer class="page-footer white">
+    <div class='angellist_embed' data-startup_id='16683'><a
+            href='https://angel.co/company/yourmechanic?utm_medium=web&utm_campaign=individual_embed&utm_content=16683'></a>
+    </div>
+    <script type='text/javascript' src='https://angel.co/company/yourmechanic/embed/angellist.js?jobs=true'></script>
     <div style="text-align: center" class="container">
         <div>
             <a style="background: #2867B2; margin: 5px;"
@@ -84,12 +82,9 @@
                 <i class="fa fa-github"></i></a>
         </div>
     </div>
-    <div style="text-align: center" class="footer-copyright">
-        <div style="padding-left: 2%">
-            © IDEA: Northeastern University's Venture Accelerator 2018-2019
-        </div>
+    <div style="text-align: center;font-size: 12px;">
+        © IDEA: Northeastern University's Venture Accelerator 2019
     </div>
-
 </footer>
 </body>
 <script>

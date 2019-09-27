@@ -10,9 +10,9 @@ def jobs():
     return render_template('jobs.jinja2')
 
 
-@app.route('/applicants', methods=['GET'])
-def applicants():
-    return render_template('applicants.jinja2')
+# @app.route('/applicants', methods=['GET'])
+# def applicants():
+#     return render_template('applicants.jinja2')
 
 
 if __name__ == '__main__':

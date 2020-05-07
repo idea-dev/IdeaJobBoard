@@ -193,7 +193,6 @@ nav ul a {
 
 .page-footer {
     padding-top: 0;
-    z-index: 999;
     bottom: 0;
     width: 100%;
     color: black;
@@ -248,4 +247,5 @@ iframe {
 
 .sidenav .collapsible-header, .sidenav.fixed .collapsible-header {
     padding: 0 32px; !important;
+    z-index: 10;
 }
